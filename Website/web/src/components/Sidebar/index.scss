@@ -71,15 +71,11 @@
                 content: "Home";
             }
         }
-        &:second-child {
-            &::after{
-                content: "About";
-            }
-        }
-        a.aboutLink {
-            &:after{
-            content: "About";
-            }
+        
+    }
+    a.aboutLink {
+        &:after{
+        content: "About";
         }
     }
     }
