@@ -39,12 +39,12 @@
             height: 51px;
             position: relative;
             text-decoration: none;
-            
+
             i {
-                transition: all 0.3s ease-out;
+                transition: all 0.2s ease-out;
             }
             &:hover {
-                color: #ffd700;
+                color: #ffd711;
                 svg {
                     opacity: 0;
                 }
@@ -66,16 +66,26 @@
                 opacity: 0;
                 transition: all 0.3s ease-out;
         }
-        &:first-child {
-            &::after {
-                content: "Home";
-            }
-        }
         
+    }
+    a.homeLink {
+        &:after{
+            content: "HOME";
+            }
     }
     a.aboutLink {
         &:after{
-        content: "About";
+            content: "ABOUT";
+            }
+            }
+    a.contactLink {
+        &:after{
+            content: "CONTACT";
+            }
+    }
+    a.active { // this is the active page the page that one is currently on per the activeclass
+        svg{ //this is the icon file it is part of active, but we need to change the colour of the icon
+            color:#ffd711;
         }
     }
     }

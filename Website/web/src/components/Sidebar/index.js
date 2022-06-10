@@ -15,7 +15,9 @@ const SideBar = () => {
                 <img src={LogoSub} alt="Serge" className="subLogo" />
             </Link>
             <nav>
-                <NavLink exact="true" acctiveclassname="active" to='/'>
+                <NavLink exact="true" acctiveclassname="active" to='/'
+                className='homeLink'
+                >
                     <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
                 </NavLink>
                 <NavLink exact="true" acctiveclassname="active" to='/about'
@@ -23,7 +25,7 @@ const SideBar = () => {
                 >
                     <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
                 </NavLink>
-                <NavLink exact="true" acctiveclassname="active" to='/'
+                <NavLink exact="true" acctiveclassname="active" to='/contact'
                 className='contactLink'
                 >
                     <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
