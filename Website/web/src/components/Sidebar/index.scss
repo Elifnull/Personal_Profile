@@ -44,7 +44,7 @@
                 transition: all 0.2s ease-out;
             }
             &:hover {
-                color: #ffd711;
+                color: #008B8B;
                 svg {
                     opacity: 0;
                 }
@@ -85,7 +85,7 @@
     }
     a.active { // this is the active page the page that one is currently on per the activeclass
         svg{ //this is the icon file it is part of active, but we need to change the colour of the icon
-            color:#ffd711;
+            color:#008B8B;
         }
     }
     }

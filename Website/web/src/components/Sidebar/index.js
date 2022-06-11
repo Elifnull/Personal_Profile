@@ -3,6 +3,7 @@ import {Link, NavLink} from 'react-router-dom'
 import LogoS from '../../assets/images/logo-s.png'  //This is an import of the Logo with a names
 import LogoSub from '../../assets/images/logo_sub.png'
 import {faHome, faUser, faEnvelope} from '@fortawesome/free-solid-svg-icons'
+import {faLinkedin} from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 
@@ -31,9 +32,18 @@ const SideBar = () => {
                     <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
                 </NavLink>
             </nav>
+            <ul>
+                <li>
+                    <a target="_blank" rel="noreferrer" href="https://github.com/Elifnull"> 
+                        <FontAwesomeIcon icon={faLinkedin} />
+                    </a>
+                </li>
+            </ul>
         </div>
         
     )
 }
 
 export default SideBar;
+
+//note: rel in a tag without the rel="noreferrer" leads to volunarability in older webpages
