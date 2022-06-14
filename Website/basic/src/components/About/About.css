@@ -1,0 +1,17 @@
+.about {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.aboutLeftSide {
+    flex: 1;
+}
+
+.AboutLWrapper {
+    height: 100%;
+}
+
+.aboutRightSide {
+    flex: 1;
+}
