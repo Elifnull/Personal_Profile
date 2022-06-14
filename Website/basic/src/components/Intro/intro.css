@@ -6,12 +6,62 @@
 
 .introLeft {
     flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .introRight {
     flex: 1;
+    position: relative;
 }
 
-.leftWrapper {
+.introLeftWrapper {
     padding: 50px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: red;
+}
+
+.introText {
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.introName {
+    font-size: 70px;
+}
+
+.introTitle {
+    height: 50px;
+    overflow: hidden;
+}
+.introTitleWrapper {
+    height: 100%;
+    animation: move 10s ease-in-out infinite alternate;
+}
+@keyframes move {
+    33% {
+        transform: translateY(-50px);
+    }
+    67% {
+        transform: translateY(-100px);
+    }
+    100% {
+        transform: translateY(-150px);
+    }
+}
+.introTitleText{
+    height: 50px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #59b256;
+    display: flex;
+    align-items: center;
+}
+
+.introDescription {
+    font-size: 25px;
 }
