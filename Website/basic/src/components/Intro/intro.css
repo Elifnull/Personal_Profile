@@ -17,16 +17,15 @@
 }
 
 .introLeftWrapper {
-    padding: 50px;
+    padding: 15vh 10vh;
     height: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: red;
 }
 
 .introText {
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 300;
 }
 
@@ -63,5 +62,12 @@
 }
 
 .introDescription {
-    font-size: 25px;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.DevImage {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
 }

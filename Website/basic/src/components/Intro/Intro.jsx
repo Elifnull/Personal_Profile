@@ -1,5 +1,6 @@
 import React from 'react'
 import "./intro.css";
+import Dev from "../../img/serge_dev.png";
 
 const Intro = () => {
     
@@ -23,7 +24,10 @@ const Intro = () => {
                 </div>
             </div>
         </div>
-        <div className="introRight">RightSide</div>
+        <div className="introRight">
+            <div className="RightBackground"></div>
+            <img src={Dev} className='DevImage'alt='picture of Developer'/>
+        </div>
     </div>
     )
 }
