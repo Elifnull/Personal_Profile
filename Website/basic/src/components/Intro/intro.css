@@ -1,5 +1,7 @@
 .intro {
     display: flex;
+    height: 100vh;
+    
 }
 
 .introLeft {
@@ -8,4 +10,8 @@
 
 .introRight {
     flex: 1;
+}
+
+.leftWrapper {
+    padding: 50px;
 }
