@@ -62,12 +62,23 @@
 }
 
 .introDescription {
-    font-size: 22px;
-    font-weight: 300;
+    font-size: 25px;
+    font-weight: 200;
 }
 
 .DevImage {
     height: 100%;
     width: 100%;
+    position: relative;
     object-fit: contain;
+}
+
+.RightBackground {
+    background-color: #59b256;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
 }

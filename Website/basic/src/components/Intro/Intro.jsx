@@ -18,10 +18,10 @@ const Intro = () => {
                         <div className="introTitleText">Python Developer</div>
                     </div>
                 </div>
-                <div className="introDescription">
-                    I create applications and design cool experiences using ReactJS and Python,
-                    both on Backend and Frontend, all while mainting my love of Vectors and Tensors.
-                </div>
+                <p className="introDescription">
+                I create applications and design cool experiences using ReactJS and Python, 
+                both on Backend and Frontend, all while maintaining my love of Vectors and Tensors.
+                </p>
             </div>
         </div>
         <div className="introRight">
