@@ -1,6 +1,7 @@
 import React from 'react'
 import "./ProductList.css"
 import Product from "../Product/Product"
+import { products } from '../../data/projects'
 
 const ProductList = () => {
     return (
@@ -14,11 +15,6 @@ const ProductList = () => {
                 </p>
             </div>
             <div className="productList-List">
-                <Product/>
-                <Product/>
-                <Product/>
-                <Product/>
-                <Product/>
                 <Product/>
             </div>
         </div>
