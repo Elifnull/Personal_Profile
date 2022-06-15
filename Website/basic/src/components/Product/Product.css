@@ -1,0 +1,23 @@
+.product{
+    width: 30%;
+    height: 36vh;
+    margin: 20px 10px;
+    border: 2px solid #F3F2F2;
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+}
+
+.product-browser {
+    height: 20px;
+    background-color: #F3F2F2;
+    display: flex;
+    align-items: center;
+}
+
+.browserCircle {
+    width: 7px;
+    height: 7px;
+    background-color: white;
+    margin: 3px;
+    border-radius: 70%;
+}

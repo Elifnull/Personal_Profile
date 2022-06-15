@@ -10,3 +10,20 @@
 .productListText {
     width: 65%;
 }
+
+.productListTitle{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.productListDesc {
+    margin: 20px 0px;
+
+}
+
+.productList-List {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

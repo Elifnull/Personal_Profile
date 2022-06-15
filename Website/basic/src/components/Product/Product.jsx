@@ -3,8 +3,12 @@ import "./Product.css"
 
 const Product = () => {
     return (
-        <div>
-            card
+        <div className='product'>
+            <div className='product-browser'>
+                <div className='browserCircle'></div>
+                <div className='browserCircle'></div>
+                <div className='browserCircle'></div>
+            </div>
         </div>
     )
 }

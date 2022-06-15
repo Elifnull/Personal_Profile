@@ -4,9 +4,9 @@ import Product from "../Product/Product"
 
 const ProductList = () => {
     return (
-        <div className='ProductList'>ProductList
+        <div className='ProductList'>
             <div className="productListText">
-                <h1 className='productListTitle'>Create & inspire</h1>
+                <h1 className='productListTitle'>My Projects</h1>
                 <p className='productListDesc'>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                     Magnam facilis doloremque itaque iure ad rem beatae illum doloribus 
