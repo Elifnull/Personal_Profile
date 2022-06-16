@@ -16,7 +16,7 @@ const ProductList = () => {
             </div>
             <div className="productList-List">
                 { products.map((item)=>
-                <Product/>
+                <Product img={item.img} link={item.link} proj={item.proj} key={item.id}/>
                 )}
                 
             </div>
