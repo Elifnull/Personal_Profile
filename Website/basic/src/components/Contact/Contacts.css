@@ -1,3 +1,25 @@
 .contactsPage {
     height: 100vh;
+    position: relative;
+}
+
+.contactBackground{
+    position: absolute;
+    height: 100%;
+    width: 20px;
+    background-color: #59b256;
+}
+.contactWrapper {
+    display: flex;
+}
+.contactsLeft {
+    flex: 1;
+    height: 100%;
+    width: 50%;
+}
+
+.contactsRight {
+    flex: 1;
+    height: 100%;
+    width: 50%;
 }

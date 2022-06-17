@@ -4,7 +4,13 @@ import './Contacts.css'
 const Contacts = () => {
     return (
         <div className='contactsPage'>
-            contact page
+            <div className="contactBackground"></div>
+            <div className="contactWrapper">
+                <div className="contactsLeft"></div>
+                leftSide
+                <div className="contactsRight"></div>
+                RightSide
+            </div>
         </div>
     )
 }
