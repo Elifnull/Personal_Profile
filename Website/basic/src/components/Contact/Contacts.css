@@ -11,6 +11,7 @@
 }
 .contactWrapper {
     display: flex;
+    padding: 50px;
 }
 .contactsLeft {
     flex: 1;
