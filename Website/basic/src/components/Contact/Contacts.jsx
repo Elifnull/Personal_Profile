@@ -7,7 +7,7 @@ const Contacts = () => {
             <div className="contactBackground"></div>
             <div className="contactWrapper">
                 <div className="contactsLeft">
-                    <h1 className="contactsTitle">lets discussprojects</h1>
+                    <h1 className="contactsTitle">lets discuss projects</h1>
                     <div className="contactInfo">
                         <div className="contactInfoItem">
                             <img src='' alt='' className='contactInfoIMG'/>

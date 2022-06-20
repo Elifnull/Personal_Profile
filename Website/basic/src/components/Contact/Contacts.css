@@ -24,3 +24,13 @@
     height: 100%;
     width: 50%;
 }
+
+.contactsTitle{
+    font-size: 60px;
+    width: 80%;
+}
+
+.contactInfoItem{
+    display:flex;
+    align-items: center;
+}
